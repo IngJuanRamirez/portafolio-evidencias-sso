@@ -1,0 +1,272 @@
+:root {
+    --primary-color: #2e59a1;
+    --secondary-color: #4a6c9d;
+    --text-color: #333;
+    --background-color: #f7f9fc;
+    --card-background: #fff;
+    --border-color: #e0e6f0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    color: var(--text-color);
+}
+
+header {
+    background-color: var(--card-background);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.logo {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+}
+
+nav a.active, nav a:hover {
+    background-color: var(--border-color);
+}
+
+main {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+section {
+    background-color: var(--card-background);
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 2rem;
+}
+
+#bienvenida {
+    text-align: center;
+}
+
+#bienvenida h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+#bienvenida p {
+    color: #666;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.8rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+
+/* Información Personal */
+#informacion-personal .info-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+#informacion-personal .info-item .material-symbols-outlined {
+    font-size: 2rem;
+    color: var(--primary-color);
+}
+
+.info-item h4 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.info-item p {
+    margin: 0;
+    font-weight: 500;
+}
+
+/* Módulos */
+.modulos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.modulo-card {
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: var(--card-background);
+}
+
+.modulo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.modulo-card .material-symbols-outlined {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.modulo-card h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+}
+
+.modulo-card p {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: var(--primary-color);
+    color: white;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 8px;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #25447a;
+}
+
+/* Estilo específico para las páginas de módulos */
+.modulo-title {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.modulo-subtitle {
+    color: #666;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.no-actividades-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    border: 1px dashed var(--border-color);
+    border-radius: 8px;
+    background-color: #f0f3f6;
+}
+
+.no-actividades-card .material-symbols-outlined {
+    font-size: 4rem;
+    color: #999;
+    margin-bottom: 1rem;
+}
+
+.no-actividades-card h4 {
+    margin: 0;
+    color: #555;
+}
+
+.no-actividades-card p {
+    margin: 0.5rem 0 0 0;
+    color: #888;
+}
+
+.actividad-card {
+    background-color: var(--card-background);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s;
+}
+
+.actividad-card:hover {
+    transform: translateY(-3px);
+}
+
+.actividad-card h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+.actividad-card .pdf-viewer {
+    width: 100%;
+    height: 600px;
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    margin-top: 1rem;
+}
+
+/* Estilo para la página de administración */
+.admin-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh; /* Ajusta la altura para que el contenido esté centrado verticalmente */
+    text-align: center;
+}
+
+.construction-card {
+    background-color: var(--card-background);
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 450px;
+    border: 1px dashed #e0e6f0;
+}
+
+.construction-card .material-symbols-outlined {
+    font-size: 4rem;
+    color: #a1b0c9;
+    margin-bottom: 1rem;
+}
+
+.construction-card h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--primary-color);
+    margin-top: 0;
+}
+
+.construction-card p {
+    color: #666;
+}
