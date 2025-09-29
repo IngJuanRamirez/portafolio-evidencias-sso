@@ -25,7 +25,11 @@ const modulos = {
             descripcion: "Reporte sobre el concepto de máquinas virtuales, sus aplicaciones y la instalación de un sistema operativo a través de un hipervisor.",
             pdf: "src/actividades/RamirezJuanD02Actividad5.pdf"
         },
-
+        {
+            titulo: "1.6 Distribuciones y licencias",
+            descripcion: "Reporte sobre los tipos de distribución de software, las licencias y sus implicaciones legales.",
+            pdf: "src/actividades/RamirezJuanD02Actividad6.pdf"
+        }
         // Aquí puedes agregar la siguiente actividad
     ],
     modulo2: [
@@ -34,7 +38,7 @@ const modulos = {
             descripcion: "Reporte sobre el concepto de concurrencia y sus problemas asociados, como interbloqueos e inanición, con glosario de términos clave.",
             pdf: "src/actividades/RamirezJuanD02Actividad9.pdf"
         },
-        
+
     ],
     modulo3: [
         // Aquí irán las actividades del Módulo 3
