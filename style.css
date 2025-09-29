@@ -270,3 +270,28 @@ h2 {
 .construction-card p {
     color: #666;
 }
+
+/* Estilo para la sección de conclusión */
+.conclusion-section {
+    max-width: 900px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: var(--card-background);
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.conclusion-section h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    color: var(--primary-color);
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 0.5rem;
+}
+
+.conclusion-section p {
+    color: var(--text-color);
+    line-height: 1.8;
+    margin-bottom: 1rem;
+}

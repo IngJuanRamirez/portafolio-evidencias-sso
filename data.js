@@ -29,8 +29,12 @@ const modulos = {
             titulo: "1.6 Distribuciones y licencias",
             descripcion: "Reporte sobre los tipos de distribución de software, las licencias y sus implicaciones legales.",
             pdf: "src/actividades/RamirezJuanD02Actividad6.pdf"
+        },
+        {
+            titulo: "1.7 Producto Integrador Portafolio de evidencias",
+            descripcion: "Reporte final que documenta el desarrollo, despliegue y conclusiones del portafolio de evidencias de la materia.",
+            pdf: "src/actividades/RamirezJuanD02Actividad7.pdf"
         }
-        // Aquí puedes agregar la siguiente actividad
     ],
     modulo2: [
         {
