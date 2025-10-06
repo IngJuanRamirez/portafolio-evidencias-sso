@@ -38,6 +38,11 @@ const modulos = {
     ],
     modulo2: [
         {
+            titulo: "2.1 Conociendo los procesos, hilos y su entorno",
+            descripcion: "Análisis de los procesos y hilos, incluyendo su definición, estados, jerarquía y gestión dentro de un sistema operativo.",
+            pdf: "src/actividades/RamirezJuanD02Actividad8.pdf"
+        },
+        {
             titulo: "2.2 Concurrencia. Exclusión mutua, sincronización y problemas de control",
             descripcion: "Reporte sobre el concepto de concurrencia y sus problemas asociados, como interbloqueos e inanición, con glosario de términos clave.",
             pdf: "src/actividades/RamirezJuanD02Actividad9.pdf"
