@@ -47,7 +47,11 @@ const modulos = {
             descripcion: "Reporte sobre el concepto de concurrencia y sus problemas asociados, como interbloqueos e inanición, con glosario de términos clave.",
             pdf: "src/actividades/RamirezJuanD02Actividad9.pdf"
         },
-
+        {
+            titulo: "2.3 Exclusion Mutua",
+            descripcion: "Actividad interactiva sobre el tema de la exclusion mutua",
+            pdf: "src/actividades/RamirezJuanD02Actividad10.pdf"
+        },
     ],
     modulo3: [
         // Aquí irán las actividades del Módulo 3
