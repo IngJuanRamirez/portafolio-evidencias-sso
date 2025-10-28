@@ -64,6 +64,20 @@ const modulos = {
         },
     ],
     modulo3: [
-        // Aquí irán las actividades del Módulo 3
+        {
+            titulo: "3.1 Scripts para automatizar",
+            descripcion: "Reporte de scripts y creacion de uno desde cero.",
+            pdf: "src/actividades/RamirezJuanD02Actividad14.pdf"
+        },
+        {
+            titulo: "3.2 Paralelismo",
+            descripcion: "Reporte de las herramientas de Intel: Intel Parallel Studio XE.",
+            pdf: "src/actividades/RamirezJuanD02Actividad15.pdf"
+        },
+        {
+            titulo: "3.3 Seguridad",
+            descripcion: "Reporte sobre la seguridad en sistemas operativos, redes y usaurios. Resumen de pelicula.",
+            pdf: "src/actividades/RamirezJuanD02Actividad16.pdf"
+        }
     ]
 };
