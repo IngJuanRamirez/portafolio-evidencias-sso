@@ -49,8 +49,18 @@ const modulos = {
         },
         {
             titulo: "2.3 Exclusion Mutua",
-            descripcion: "Actividad interactiva sobre el tema de la exclusion mutua",
+            descripcion: "Actividad interactiva sobre el tema de la exclusion mutua.",
             pdf: "src/actividades/RamirezJuanD02Actividad10.pdf"
+        },
+        {
+            titulo: "2.4 Productor Consumidor",
+            descripcion: "Reporte de Producto Consumidor y actividad resolviendo dicho problema.",
+            pdf: "src/actividades/RamirezJuanD02Actividad11.pdf"
+        },
+        {
+            titulo: "2.5 Soluciones al interbloqueo, filósofos",
+            descripcion: "Reporte de Interbloqueos y algoritmo de solucion del problema de los filosofos.",
+            pdf: "src/actividades/RamirezJuanD02Actividad12.pdf"
         },
     ],
     modulo3: [
